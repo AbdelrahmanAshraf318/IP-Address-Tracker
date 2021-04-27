@@ -1,0 +1,83 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('./images/pattern-bg.png');
+    position: relative;
+}
+.headerContent
+{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    padding-top: 90px;
+    
+}
+.headerContent h1
+{
+    color: white;
+    text-align: center;
+}
+.headerContent .search-form
+{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+.headerContent input[type=text]
+{
+    width: 80%;
+    font-size: 12px;
+    border-radius: 16px 0% 0% 16px;
+}
+
+.headerContent input[type=image] {
+    border-radius: 0 16px 16px 0;
+    background-color: hsl(0, 0%, 17%);
+    color: white;
+    font-weight: 700;
+    padding: 0 24px;
+    object-fit: contain;
+}
+.headerContent input
+{
+    padding: 18px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.response
+{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    background-color: brown;
+    margin: auto;
+    top: 250px;
+    left: 150px;
+    display: flex;
+}
+.response .ip, .location , .time , .isp
+{
+    width: 25%;
+    height: 100%;
+    background-color: burlywood;
+}
+.response .ip, .location , .time , .isp h3
+{
+    color: grey;;
+}
+.map
+{
+    width: 100%;
+    height: 500px;
+    
+}
