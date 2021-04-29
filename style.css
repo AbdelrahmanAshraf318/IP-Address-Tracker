@@ -59,7 +59,9 @@ body
     position: absolute;
     width: 80%;
     height: 70%;
-    background-color: brown;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
     margin: auto;
     top: 250px;
     left: 150px;
@@ -69,11 +71,11 @@ body
 {
     width: 25%;
     height: 100%;
-    background-color: burlywood;
+
 }
 .response .ip, .location , .time , .isp h3
 {
-    color: grey;;
+    color: grey;
 }
 .map
 {
